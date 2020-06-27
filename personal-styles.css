@@ -103,12 +103,12 @@ h1 span {
 
 #black {
     top: -1px;
-    left: 0;
+    left: 0px;
 }
 
 #white {
     bottom: -1px;
-    left: 0;
+    left: 0px;
 }
 
 #black .curtain {
@@ -122,7 +122,7 @@ h1 span {
 #white .curtain {
     width: 100%;
     background-image: url(white-curtain.svg);
-    background-position: bottom;
+    background-position: bottom right;
     height: 100%;
     background-repeat: repeat-x;
     transform: translateY(2px);
