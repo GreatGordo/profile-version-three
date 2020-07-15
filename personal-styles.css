@@ -1,3 +1,22 @@
+#black .curtain {
+    width: 100%;
+    background-image: url(black-curtain.svg);
+    background-position: top;
+    height: 100%;
+    background-repeat: repeat-x;
+    transform: translateY(-2px);
+}
+
+#white .curtain {
+    width: 100%;
+    background-image: url(white-curtain.svg);
+    background-position: bottom;
+    height: 100%;
+    background-repeat: repeat-x;
+    transform: translateY(2px);
+}
+
+
 :root {
     --green-light: #13ff13ff;
     --landing-height: 500px;
@@ -109,25 +128,6 @@ h1 span {
 #white {
     bottom: -1px;
     left: 0px;
-}
-
-#black .curtain {
-    width: 100%;
-    background-image: url(black-curtain.svg);
-    background-position: top;
-    height: 100%;
-    background-repeat: repeat-x;
-    transform: translateY(-2px);
-    
-}
-
-#white .curtain {
-    width: 100%;
-    background-image: url(white-curtain.svg);
-    background-position: bottom;
-    height: 100%;
-    background-repeat: repeat-x;
-    transform: translateY(2px);
 }
 
 #skill p {
