@@ -16,7 +16,7 @@
 }
 :root {
   --green-light: #13ff13;
-  --landing-height: 500px;
+  --landing-height: 400px;
 }
 * {
   font-family: "Open Sans", sans-serif;
@@ -117,7 +117,7 @@ h2 {
   margin-bottom: 5px;
 }
 #personal-container {
-  height: 1350px;
+  padding: 100px 0;
   display: grid;
 }
 #personal {
@@ -161,24 +161,12 @@ h3 {
   justify-content: space-around;
   transform: translateX(-50%);
 }
-@media (min-width: 400px) {
-    :root {
-      --landing-height: 500px;
-    }
-    #personal-container {
-      height: 1200px;
-      padding-top: 0;
-    }
-  }
 @media (min-width: 640px) {
   :root {
     --landing-height: 500px;
   }
-  #personal-container {
-    height: 1100px;
-  }
 }
-@media (min-width: 768px) {
+@media (min-width: 770px) {
   :root {
     --landing-height: 600px;
   }
@@ -205,7 +193,5 @@ h3 {
   #social {
     width: 800px;
   }
-  :root {
-    --landing-height: 700px;
-  }
+
 }
