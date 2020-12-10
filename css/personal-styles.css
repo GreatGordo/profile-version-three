@@ -1,6 +1,6 @@
 #black .curtain {
   width: 100%;
-  background-image: url(black-curtain.svg);
+  background-image: url(../shared/images/black-curtain.svg);
   background-position: top;
   height: 100%;
   background-repeat: repeat-x;
@@ -8,7 +8,7 @@
 }
 #white .curtain {
   width: 100%;
-  background-image: url(white-curtain.svg);
+  background-image: url(../shared/images/white-curtain.svg);
   background-position: bottom;
   height: 100%;
   background-repeat: repeat-x;
@@ -37,7 +37,7 @@ header div {
   align-items: center;
 }
 #landing {
-  background-image: url(dallas-landing.jpg);
+  background-image: url(../shared/images/dallas-landing.jpg);
   background-size: cover;
   position: relative;
   height: var(--landing-height);
