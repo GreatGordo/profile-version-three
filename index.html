@@ -6,14 +6,12 @@
     <link rel="preload" href="./shared/images/white-curtain.svg">
     <title>William Chan</title>
     <meta charset="UTF-8">
-    <meta name="description" content="Free Web tutorials">
     <meta name="keywords" content="Software Engineering, Undergraduate, HTML, CSS, JavaScript, React, TailWindcss">
     <meta name="author" content="William Chan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/output.css">
     <link rel="stylesheet" href="./css/personal-styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-
 </head>
 
 <body class="w-screen h-screen overflow-x-hidden">
@@ -21,33 +19,37 @@
     <header class="bg-black">
         <div class="flex p-4 lg:p-6">
             <p class="block text-white text-base md:text-3xl">WILLIAM CHAN</p>
-            <a class="rounded p-1 px-3 md:text-xl" href="./shared/files/WilliamChan_Resume.pdf" download="Resume">RESUME</a>
+            <a class="rounded p-1 px-3 md:text-xl" href="./shared/files/Resume-WilliamChan.pdf" download="Resume">RESUME</a>
         </div>
     </header>
 
     <main>
         <figure id="landing">
-            <div id="black">
+            <!-- <div id="black">
                 <div class="curtain"></div>
             </div>
             <div id="white">
                 <div class="curtain"></div>
-            </div>
+            </div> -->
             <div id="orange-filter"></div>
             <div class="absolute" id="landing-text">
-                <h1 class="text-center text-4xl md:text-5xl ">Software Engineering Undergraduate with a Passion for <span>UI/UX and Full-Stack Development</span></h1>
+                <h1 class="text-center text-3xl md:text-4xl lg:text-5xl ">Software Engineering Undergraduate with a Passion for <span>UI/UX and Full-Stack Development</span></h1>
             </div>
         </figure>
 
         <div id="personal-container">
             <article id="personal">
                 <section id="about">
-                    <h2 class="text-3xl sm:text-3xl md:text-4xl">About Me...</h2>
+                    <h2 class="text-3xl sm:text-3xl md:text-4xl">Hi! Thanks for Visiting...</h2>
                     <p class="text-lg md:text-xl">
 
-                        Hi! Thanks for visiting! My name is William Chan, and I am an undergraduate at the University of Texas at Dallas. I will be graduating Spring of 2021 with a Bachelors in <strong>Software Engineering with a focus in Computer Imagery</strong>. I pursue my passion in full-stack development alongside my job and academics. <br /><br />
+                        My name is William Chan, and I am an undergraduate at the University of Texas at Dallas. 
+                        I will be graduating Spring of 2021 with a Bachelors in <strong>Software Engineering with a focus in Computer Imagery</strong>. 
+                        I pursue my passion in full-stack development alongside my job and academics. <br /><br />
 
-                        I have always loved creating eye-catching products ever since I was little. I participated in art contests and crafted "amazing" works out of styrofoam. My mother's day styrofoam dolphin was damaged during development, but I would still consider that as my styrofoam magnum opus! I hope to bring my love for creativity into technology and be apart of the design and development in applications. 
+                        My short term goals are to become familiar in ReactJS, develop my own logo, and become more familiar with 
+                        CSS animations. My long term career goal is to become a full stack developer with the characteristics of an 
+                        exceptional UX unicorn or a great UX developer with exceptional full stack knowledge.
 
                     </p>
                 </section>
@@ -69,35 +71,51 @@
                         <span>Git</span>
                     </p>
                 </section>
+            </article>
+            <article id="projectContainer">
+                <section id="project">
+                    <ul>
+                        <li class="projectItem">
+                                <h2 class="text-3xl sm:text-3xl md:text-4xl">Redesigning the Basic Podcast Experince on Castbox</h2>
+                                <p class="text-lg md:text-xl">
+                                    Redesign of a Podcasting Application to Improve and Simply the User Experience
+                                    <br><br>
+                                    First time redesigning an application using the Double Diamond UX design methodology. 
+                                    Implemented <strong>competitive research and user surveys</strong> to design an app that is more curated 
+                                    to users and follows a consistent design trend.
+                                </p>
+                                
+                                <div style="overflow:hidden;">
+                                    <a href="https://dribbble.com/shots/15192522-Castbox-Redesign?utm_source=Clipboard_Shot&utm_campaign=GolemIsCoding&utm_content=Castbox%20Redesign&utm_medium=Social_Share">
+                                        <img class="w-full caseImage cursor-pointer" src="./shared/images/Castbox Redesign.png" alt="Castbox Case Study Thumbnail">
+                                    </a>
+                                </div>
+                        </li>
 
-                <section id="plan">
-                    <h2 class="text-2xl sm:text-3xl md:text-4xl">Future Plans...</h2>
-                    <p class="text-lg  md:text-xl">
+                        <li class="projectItem">
+                            <h2 class="text-3xl sm:text-3xl md:text-4xl">Retrace</h2>
+                            <p class="text-lg md:text-xl">Concept Design for a Mobile App that Helps Retrace Your Steps</p>
+                            <div style="overflow:hidden;">
+                                <a href="https://dribbble.com/shots/14294538-Retrace?utm_source=Clipboard_Shot&utm_campaign=GolemIsCoding&utm_content=Retrace&utm_medium=Social_Share">
+                                    <img class="w-full caseImage" src="./shared/images/Retrace.png" alt="Retrace Case Study Thumbnail">
+                                </a>
+                            </div>
+                        </li>
 
-                        My list of short term goals are:
+                        <li class="projectItem">
+                            <h2 class="text-3xl sm:text-3xl md:text-4xl">Anime Info Generator</h2>
+                            <p  class="text-lg md:text-xl">
+                                Anime info generator created using JavaScript. Implemented AJAX methods with the Jikan Public API.
+                                <br><strong>Skills Used:</strong> HTML, CSS, BootStrap, JavaScript, and AJAX.
+                            </p>
+                            <div style="overflow: hidden;">
+                                <a href="https://wchan-anime-generator.netlify.app/">
+                                    <img class="w-full caseImage" src="./shared/images/anime-generator.png" alt="Anime Generator Thumbnail">
+                                </a>
+                            </div>
 
-                    </p>
-
-                    <ul class= "list-disc text-lg list-inside md:text-xl">
-                        <li>Get Familiar with React.JS and Angular.JS</li>
-                        <li>Become adept with CSS animations</li>
-                        <li>Craft my own logo</li>
-                        <li>Complete the full-stack certification course on FreeCodeCamp</li>
-                    </ul>
-                    
-                    <br/>
-                    
-                    <p class="text-lg  md:text-xl">
-
-                        My list of long term goals are:
-
-                    </p>
-
-                    <ul class= "list-disc text-lg list-inside md:text-xl">
-                        <li>Become a front-end developer</li>
-                        <li>Become a full-stack developer</li>
-                        <li>Develop my own original fried chicken recipe</li>
-                    </ul>
+                        </li>
+                    </ul>                    
                 </section>
             </article>
         </div>
@@ -112,7 +130,7 @@
         <div id="social" class="text-lg  md:text-xl">
             <a href="https://www.facebook.com/william.chan.750546">Facebook</a>
             <a href="https://www.linkedin.com/in/william-chan-bb4777158/">LinkedIn</a>
-            <a href="https://github.com/GreatGordo">Github</a>
+            <a href="https://github.com/wchan1097">Github</a>
         </div>
     </footer>
 
